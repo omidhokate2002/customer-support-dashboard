@@ -11,11 +11,11 @@ export default function LandingPage() {
       </h1>
       <p>The best dashboard to manage customer support</p>
       <div className="flex gap-3 items-center">
-        <Button asChild>
+        <Button className="font-bold" asChild>
           <Link href="/login">Log In</Link>
         </Button>
         <small>||</small>
-        <Button variant="secondary" asChild>
+        <Button className="font-bold" variant="outline" asChild>
           <Link href="/sign-up">Sign Up</Link>
         </Button>
       </div>
