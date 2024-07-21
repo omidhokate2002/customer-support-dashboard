@@ -19,6 +19,9 @@ export default function LandingPage() {
           <Link href="/sign-up">Sign Up</Link>
         </Button>
       </div>
+      <Button className="font-bold" variant="secondary" asChild>
+        <Link href="/dashboard">Dashboard</Link>
+      </Button>
     </>
   );
 }
