@@ -10,12 +10,12 @@ export default function LandingPage() {
         SupportMe
       </h1>
       <p>The best dashboard to manage customer support</p>
-      <div className="flex gap-3 items-center">
+      <div className="flex gap-8 mb-2 items-center">
         <Button className="font-bold" asChild>
           <Link href="/login">Log In</Link>
         </Button>
-        <small>||</small>
-        <Button className="font-bold" variant="outline" asChild>
+        {/* <small>||</small> */}
+        <Button className="font-bold" variant="default" asChild>
           <Link href="/sign-up">Sign Up</Link>
         </Button>
       </div>
